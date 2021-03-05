@@ -1,0 +1,11 @@
+public class HwPartOne {
+    public static void main(String[] args) {
+        String[] favoriteMovies = {"Avengers", "LegallyBlonde", "WonderWomen", "Behindhereyes", "Bigdaddy"};
+        printsfavoriteMovies(favoriteMovies);
+    }
+    public static void printsfavoriteMovies(String[] arr) {
+        for(String favoriteMovies : arr) {
+            System.out.println(favoriteMovies);
+        }
+    }
+}
